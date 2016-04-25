@@ -20,3 +20,5 @@ for lane in `ls -d */* | grep -v repodata`
 	done
 done
 popd
+
+# NOTE: need to regenerate repo metadata
