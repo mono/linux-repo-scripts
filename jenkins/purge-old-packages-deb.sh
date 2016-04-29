@@ -23,3 +23,4 @@ for packageset in ${PACKAGESETS}
 		fi
 	done
 done
+aptly publish update sid
