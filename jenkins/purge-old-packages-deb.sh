@@ -16,7 +16,7 @@ for packageset in ${PACKAGESETS}
 			then yearmonth=`echo ${package} | grep -Po '\d{4}\.\d{2}'`
 			if [ "${yearmonth}" == "${lastyearmonth}" ]
 			then
-				echo "aptly repo remove ${REPONAME} \"\$Source (${package})\""
+				aptly repo remove ${REPONAME} "\$Source (${package})"
 			else
 				lastyearmonth=${yearmonth}
 			fi
