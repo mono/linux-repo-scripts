@@ -24,3 +24,4 @@ for packageset in ${PACKAGESETS}
 	done
 done
 aptly publish update sid
+aptly db cleanup
