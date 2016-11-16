@@ -19,6 +19,7 @@ for lane in `ls -d */* | grep -v repodata`
 		fi
 	done
 done
+createrepo --update --database .
+rm -f repodata/repomd.xml.asc
+gpg --detach-sign --armor repodata/repomd.xml
 popd
-
-# NOTE: need to regenerate repo metadata
