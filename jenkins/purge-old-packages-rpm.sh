@@ -12,7 +12,7 @@ for lane in `ls -d */* | grep -v repodata`
 			then yearmonth=`echo ${package} | grep -Po '\d{4}\.\d{2}'`
 			if [ "${yearmonth}" == "${lastyearmonth}" ]
 			then
-				echo rm -r ${package}
+				rm -fr ${package}
 			else
 				lastyearmonth=${yearmonth}
 			fi
