@@ -3,7 +3,7 @@
 # these have a * appended in a filter
 # e.g. mono-snapshot-2 searches for mono-snapshot-2* so as to
 # avoid counting mono-snapshot-common
-PACKAGESETS="mono-4.0-snapshot-2 mono-4.2-snapshot-2 mono-4.4-snapshot-2 mono-4.6-snapshot-2 mono-4.8-snapshot-2mono-snapshot-2 monodevelop-snapshot-2"
+PACKAGESETS="mono-4.0-snapshot-2 mono-4.2-snapshot-2 mono-4.4-snapshot-2 mono-4.6-snapshot-2 mono-4.8-snapshot-2 mono-snapshot-2 monodevelop-snapshot-2"
 # number of packages to keep, beyond 1-a-month rule
 NUMKEEP=20
 # aptly repo to use
